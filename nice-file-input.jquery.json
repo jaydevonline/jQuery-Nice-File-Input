@@ -1,0 +1,36 @@
+{
+  "name": "nice-file-input",
+  "title": "jQuery Nice file Input",
+  "version": "1.0.0",
+  "description": "jQuery plugin for changing input file HTML element appearance ",
+  "keywords": [
+    "file",
+    "input",
+    "jquery-plugin"
+  ],
+  "homepage": "https://github.com/jaydevonline/jQuery-Nice-File-Input",
+  "author": {
+    "name": "Jaydev Gajera",
+    "email": "jaydevonline@gmail.com",
+    "url": "https://github.com/jaydevonline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaydevonline/jQuery-Nice-File-Input.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+    }
+  ],
+	"bugs": "https://github.com/jaydevonline/jQuery-Nice-File-Input/issues",
+	"homepage": "https://github.com/jaydevonline/jQuery-Nice-File-Input",
+	"docs": "https://github.com/jaydevonline/jQuery-Nice-File-Input/blob/master/README.md",
+	"demo":"http://www.jaydevgajera.com/nice-file-input/",
+  
+  "dependencies": {
+    "jquery": "~1.9.1"
+  }
+}
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery Nice File Input</title>
+		<link rel="stylesheet" href="css/jquery.nicefileinput.css" type="text/css" />
+    </head>
+    <body>		
+			<div style="margin:15px 50px">
+            
+					<input type="file" class="nicefile" />
+                    					
+		    </div>	
+		
+		<!-- script -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script> 
+		<script src="../dist/jquery.nice-file-input.js"></script>		
+		<script type="text/javascript">			
+			$('document').ready(function(){		
+			
+				$(".nicefile").niceFileInput({
+				  'width'         : '500', //width of button - minimum 150
+				  'height'		  : '30',  //height of text
+				  'btnText'       : 'Browse', //text of the button     
+				  'btnWidth'	  : '100' ,  // width of button
+				  'margin'        : '20',	// gap between textbox and button - minimum 14 		  
+				});				
+						
+			});		
+		</script>
+		
+    </body>
+</html>

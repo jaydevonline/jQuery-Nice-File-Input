@@ -1,0 +1,21 @@
+.fileWrapper{
+		position:relative;
+		padding:0;
+		overflow:hidden
+	}	
+input[type="text"].fileInputText{ 
+		float:left;
+		border:1px solid #ddd ;
+		padding:0 5px;
+		margin:0
+	}
+input[type="button"].fileInputButton{ 
+		float:right; 
+		border:solid 1px #ccc; 
+		background:#ddd;
+		margin:0;
+		padding:0;
+		box-sizing:content-box;
+		-moz-box-sizing:content-box;
+		-webkit-box-sizing:content-box
+	}
