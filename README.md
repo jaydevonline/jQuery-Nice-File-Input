@@ -30,7 +30,7 @@ https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.ni
 or
 https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.js
 
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/jquery.nicefileinput.css
+https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/demo/css/jquery.nicefileinput.css
 
 The only thing that you need to do is include the javascript and CSS files of the plugin in your HTML document and it is all set to use.
 
