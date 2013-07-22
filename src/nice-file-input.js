@@ -54,6 +54,8 @@
 				this.change(function(){
 						$(this).closest('.fileWrapper').find(".fileInputText").val($(this).val());
 					}			
-				)};					
+				)};
+				
+				return this;					
 		})();
 	
