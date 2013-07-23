@@ -26,11 +26,15 @@ jQuery Nice File Input has been tested with jQuery 1.9+ on all major browsers:
 
 Downloading the code:
 
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.min.js
-or
+#####JS File
+https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.min.js  
+or  
 https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.js
 
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/demo/css/jquery.nicefileinput.css
+#####CSS File
+https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.min.css  
+or  
+https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.css
 
 The only thing that you need to do is include the javascript and CSS files of the plugin in your HTML document and it is all set to use.
 
@@ -53,7 +57,7 @@ $('document').ready(function(){
  ```
 In this example the jQuery Nice File Input Plugin  will be applied in all the input fields that have the '.nicefile' class with default options.
 
-You can choose the setting options as you wish also like this.
+You can choose the setting options as you wish also like this. Have a look at <a href="http://jaydevgajera.com/nice-file-input/" target="_blank" >demo page</a>.
 
  ```javascript
 $('document').ready(function(){					
@@ -71,7 +75,6 @@ $('document').ready(function(){
 
 > For option 'margin' it should be minimum  14, here this digit is not showing px value. It is set by some calculation.
 
-> style can be changed by editing the stylesheet jquery.nicefileinput.css
 
 
 Any problems, please, let me know. 
