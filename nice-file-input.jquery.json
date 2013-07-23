@@ -1,7 +1,7 @@
 {
   "name": "nice-file-input",
   "title": "jQuery Nice file Input",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "jQuery plugin for changing input file HTML element appearance ",
   "keywords": [
     "file",
