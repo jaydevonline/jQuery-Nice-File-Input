@@ -52,7 +52,8 @@
 					});
 				
 				this.change(function(){
-						$(this).closest('.fileWrapper').find(".fileInputText").val($(this).val());
+						var textPath = $(this).val().replace("C:\\fakepath\\", "");
+						$(this).closest('.fileWrapper').find(".fileInputText").val(textPath);
 					}			
 				)};
 				
