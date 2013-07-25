@@ -1,7 +1,7 @@
 {
   "name": "nice-file-input",
   "title": "jQuery Nice file Input",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "The jQuery Nice File Input Plugin provides batter looking file input HTML element, while making all kinds of customizations to fit your application really easy. ",
   "keywords": [
     "file",
