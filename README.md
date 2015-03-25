@@ -24,17 +24,10 @@ jQuery Nice File Input has been tested with jQuery 1.9+ on all major browsers:
 
 ##Usage
 
-Downloading the code:
-
-#####JS File
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.min.js  
-or  
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.js
-
-#####CSS File
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.min.css  
-or  
-https://raw.github.com/jaydevonline/jQuery-Nice-File-Input/master/dist/jquery.nice-file-input.css
+ ```HTML
+<link href="dist/jquery.nice-file-input.min.css" rel="stylesheet">
+<script src="dist/jquery.nice-file-input.min.js"></script>
+ ```
 
 The only thing that you need to do is include the javascript and CSS files of the plugin in your HTML document and it is all set to use.
 
@@ -61,13 +54,13 @@ You can choose the setting options as you wish also like this. Have a look at <a
 
  ```javascript
 $('document').ready(function(){					
-	$(".nicefile").niceFileInput({
-		'width'   : '500', //width of button - minimum 150
-		'height'  : '30',  //height of text
-		'btnText' : 'Browse', //text of the button     
-		'btnWidth': '100' ,  // width of button
-	    'margin'  : '20',	// gap between textbox and button - minimum 14 		  
-	});				
+    $(".nicefile").niceFileInput({
+        width   : 500,        // width of text - minimum 150
+        height  : 30,         // height of text
+        btnText : 'Browse',   // text of the button     
+        btnWidth: 100 ,       // width of button
+        margin  : 20,         // gap between textbox and button - minimum 14 		  
+    });	
 });
  ```
 
@@ -82,22 +75,3 @@ Any problems, please, let me know.
 Twitter  : <a href="https://twitter.com/jaydevonline" target="_blank" >@jaydevonline</a>
 
 LinkedIn : <a href="in.linkedin.com/in/jaydevgajera/" target="_blank"> in.linkedin.com/in/jaydevgajera/ </a>
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
